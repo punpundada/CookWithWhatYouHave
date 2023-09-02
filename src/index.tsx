@@ -3,13 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ErrorBoundry } from './errorBoundry/ErrorBoundry';
+import { error } from 'console';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+    <ErrorBoundry errorElement={(error)=>{
+      return(
+        <div>
+            <p>Error Message: {error.message}</p>
+            <p>Error Stack: {error.stack}</p>
+          </div>
+      )
+    }} >
     <App />
+    </ErrorBoundry>
   </React.StrictMode>
 );
 
