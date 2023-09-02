@@ -10,7 +10,7 @@ export const navLinks=[
         label:'LogIn'
     },
     {
-        id:2,
+        id:3,
         path:'/aboutUs',
         label:'About us'
     },
