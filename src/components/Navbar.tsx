@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { navLinks } from "../constants/NavItems";
 import { Link } from "react-router-dom";
@@ -31,3 +32,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
