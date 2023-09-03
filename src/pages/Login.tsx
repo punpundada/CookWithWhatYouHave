@@ -38,7 +38,7 @@ const Login = () => {
       <div className="w-1/2">
         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FWallpapers-pexels-photo.jpg&f=1&nofb=1&ipt=fe0858c80f515620fadb634ede7dfcec07eb62bc5045d275821e15ddcba3d3a9&ipo=images" alt="" />
       </div>
-      <Container maxWidth="md" className="w-1/2">
+      <Container maxWidth="sm" className="w-1/2">
         <div className="bg-white p-8 rounded-lg shadow-md">
           <Typography variant="h5" component="div" sx={{ marginBottom: 4 }}>
             Login
