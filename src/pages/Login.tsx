@@ -2,7 +2,8 @@ import { Button, Container, Paper, TextField, Typography } from "@mui/material";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
-import { ILogin } from "../types/login/ILogin";
+import { ILogin } from "../types/pages/ILogin";
+
 import { InputController } from "../components/muiControllers";
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup"
