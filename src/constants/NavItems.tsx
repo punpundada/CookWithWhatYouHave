@@ -9,4 +9,9 @@ export const navLinks=[
         path:'/aboutUs',
         label:'About us'
     },
+    {
+        id:3,
+        path:'/signUp',
+        label:'Sign Up'
+    }
 ]
